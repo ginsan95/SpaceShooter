@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #414A4C; -fx-pref-width: 750; -fx-pref-height: 500;" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainMenuController">
+   <children>
+      <Text fill="WHITE" layoutX="165.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P4 Space Shooter " textAlignment="CENTER" wrappingWidth="439.146484375" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="39.203125">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Text>
+      <Button fx:id="easyButton" layoutX="300.0" layoutY="180.0" mnemonicParsing="false" onAction="#easyClick" prefHeight="44.0" prefWidth="169.0" text="Easy Mode">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="normalButton" layoutX="300.0" layoutY="252.0" mnemonicParsing="false" onAction="#normalClick" prefHeight="44.0" prefWidth="169.0" text="Normal Mode">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="hardButton" layoutX="300.0" layoutY="327.0" mnemonicParsing="false" onAction="#hardClick" prefHeight="44.0" prefWidth="169.0" text="Hard Mode">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="howButton" layoutX="300.0" layoutY="397.0" mnemonicParsing="false" onAction="#howClick" prefHeight="44.0" prefWidth="169.0" text="How to play">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="65.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ship.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

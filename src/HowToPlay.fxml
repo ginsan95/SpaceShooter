@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #414A4C;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HowToPlayController">
+   <children>
+      <Text fill="#f8f8f8" layoutX="243.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to play?">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f8f8" layoutX="98.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) Chose the difficulty - Easy, Normal, Hard.&#10;2) Control the space ship using the following controls:&#10;    Up Arrow - Move up&#10;    Down Arrow- Move down&#10;    Left Arrow - Move left&#10;    Right Arrow - Move right&#10;    Z - Shoot&#10;3) Each round player only have 10 HP and once the HP reaches zero the game is over.&#10;4) HP decreases by 1 if hit by monster and 0.5 if the monster manage to reach to the base." wrappingWidth="584.40625">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="returnButton" layoutX="31.0" layoutY="21.0" mnemonicParsing="false" onAction="#returnButtonClick" prefHeight="44.0" prefWidth="164.0" text="Return">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
